@@ -1,5 +1,5 @@
-import _graphics from './graphics.json';
-const graphics = _graphics as unknown as GraphicsData;
+import graphicsData from './graphics.json';
+const graphics = graphicsData as unknown as GraphicsData;
 
 export type Sprite = [string, number];
 interface GraphicsData {
