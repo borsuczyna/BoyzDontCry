@@ -18,7 +18,7 @@ export interface Animation {
         endX: number;
         endY: number;
         startTop: number;
-        endTop: string;
+        endTop: number;
     };
 
     popup: {

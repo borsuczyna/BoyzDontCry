@@ -1,11 +1,14 @@
 import animationsData from './animations.json';
-const animations: Animation[] = animationsData as unknown as Animation[];
+import { Animation as AnimationType } from './types';
+const animations: AnimationType[] = animationsData as unknown as AnimationType[];
 
 export class Animation {
-    private updateTimestamp: Date = new Date();
     name: string;
+    frame: number = 0;
+    cycle: number = 0;
 
-    
+    // last keyframe change timestamp
+    private updateTimestamp: Date = new Date();
 
     constructor(name: string) {
         this.name = name;
