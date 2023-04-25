@@ -6,7 +6,7 @@ interface Layer {
     x: number;
     y: number;
     depth: number;
-}
+};
 
 interface Hotpoint {
     id: string;
@@ -27,24 +27,18 @@ interface BackgroundAnimation {
     animation: Animation;
 };
 
-interface World {
+interface LocationElements<T> {
+    size: number;
+    elements: T[];
+};
+
+interface Location {
     name: string;
     logicMap: string;
 
-    layers: {
-        size: number;
-        elements: Layer[];
-    };
-
-    hotpoints: {
-        size: number;
-        elements: Hotpoint[];
-    };
-
-    backgroundAnimations: {
-        size: number;
-        elements: BackgroundAnimation[];
-    };
+    layers: LocationElements<Layer>;
+    hotpoints: LocationElements<Hotpoint>;
+    backgroundAnimations: LocationElements<BackgroundAnimation>;
 
     miscelaneous: {
         objectsScalingFactor: number;
