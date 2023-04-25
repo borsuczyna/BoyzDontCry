@@ -11,7 +11,7 @@ export function clearAnimationName(animation: string): string {
     return animation.replaceAll('.PNG', '').replaceAll('.JPG', '');
 }
 
-export function findSprite(library: string | null, targetAnimation: string): number | undefined {
+export function findSprite(library: string | undefined, targetAnimation: string): number | undefined {
     // if there's no library, try to find it in any library
     if(!library) {
         for(let library in graphics) {
