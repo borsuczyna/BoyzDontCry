@@ -1,0 +1,1962 @@
+[
+    {
+        "source": "PARKING STRZEZONY",
+        "destination": "SKEJTPARK 1",
+        "fred": {
+            "x": 124,
+            "y": 494,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 51,
+            "y": 487,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "SKEJTPARK 1",
+        "destination": "PARKING STRZEZONY",
+        "fred": {
+            "x": 939,
+            "y": 567,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 829,
+            "y": 533,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "SKEJTPARK 2",
+        "destination": "PARKING STRZEZONY",
+        "fred": {
+            "x": 939,
+            "y": 567,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 829,
+            "y": 533,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "PARKING STRZEZONY",
+        "destination": "NULL",
+        "fred": {
+            "x": 303,
+            "y": 507,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 410,
+            "y": 534,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "SKEJTPARK 1",
+        "destination": "NULL",
+        "fred": {
+            "x": 508,
+            "y": 546,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 339,
+            "y": 531,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "SKEJTPARK 2",
+        "destination": "NULL",
+        "fred": {
+            "x": 292,
+            "y": 580,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 445,
+            "y": 590,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "OKOLICE KOSCIOLA",
+        "destination": "NULL",
+        "fred": {
+            "x": 238,
+            "y": 529,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 317,
+            "y": 574,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "SZKOLA",
+        "destination": "NULL",
+        "fred": {
+            "x": 1093,
+            "y": 560,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 945,
+            "y": 558,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "BOISKO SZKOLNE",
+        "destination": "NULL",
+        "fred": {
+            "x": 582,
+            "y": 525,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 405,
+            "y": 531,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "SKLEP PLYTOWY",
+        "destination": "NULL",
+        "fred": {
+            "x": 150,
+            "y": 361,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 84,
+            "y": 411,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "CENTRUM HANDLOWE",
+        "destination": "NULL",
+        "fred": {
+            "x": 1086,
+            "y": 536,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 1207,
+            "y": 522,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KAFEJKA INTERNETOWA",
+        "destination": "NULL",
+        "fred": {
+            "x": 1066,
+            "y": 565,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 896,
+            "y": 540,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "SZKOLA",
+        "destination": "KAFEJKA INTERNETOWA",
+        "fred": {
+            "x": 1093,
+            "y": 575,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 1006,
+            "y": 553,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "SKLEP PLYTOWY",
+        "destination": "CENTRUM HANDLOWE",
+        "fred": {
+            "x": 104,
+            "y": 510,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 160,
+            "y": 573,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "PLAC ZA MIASTEM",
+        "destination": "NULL",
+        "fred": {
+            "x": 390,
+            "y": 552,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 522,
+            "y": 457,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KAFEJKA INTERNETOWA",
+        "destination": "SIEDZIBA MAFII",
+        "fred": {
+            "x": 70,
+            "y": 584,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 110,
+            "y": 501,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "SKEJTPARK 1",
+        "destination": "SKEJTPARK 2",
+        "fred": {
+            "x": 637,
+            "y": 565,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 749,
+            "y": 559,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "SKEJTPARK 2",
+        "destination": "SKEJTPARK 1",
+        "fred": {
+            "x": 474,
+            "y": 507,
+            "direction": "H"
+        },
+        "grucha": {
+            "x": 556,
+            "y": 531,
+            "direction": "H"
+        }
+    },
+    {
+        "source": "SZKOLA",
+        "destination": "BOISKO SZKOLNE",
+        "fred": {
+            "x": 858,
+            "y": 568,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 766,
+            "y": 515,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "BOISKO SZKOLNE",
+        "destination": "SZKOLA",
+        "fred": {
+            "x": 477,
+            "y": 434,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 334,
+            "y": 436,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "DOM KOWALA",
+        "destination": "NULL",
+        "fred": {
+            "x": 370,
+            "y": 570,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "NULL",
+        "fred": {
+            "x": 360,
+            "y": 580,
+            "direction": "E"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STODOLA",
+        "destination": "NULL",
+        "fred": {
+            "x": 380,
+            "y": 425,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "KOMIKS1",
+        "destination": "NULL",
+        "fred": {
+            "x": -10,
+            "y": -10,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": ""
+        }
+    },
+    {
+        "source": "KOMIKS1",
+        "destination": "OBOZ HIPPISOW",
+        "fred": {
+            "x": 450,
+            "y": 570,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "OBOZ HIPPISOW",
+        "destination": "NULL",
+        "fred": {
+            "x": 450,
+            "y": 570,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM LEKARZA",
+        "destination": "NULL",
+        "fred": {
+            "x": 100,
+            "y": 580,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "OGROD ZA DOMEM LEKARZA",
+        "destination": "NULL",
+        "fred": {
+            "x": 250,
+            "y": 580,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STACJA BENZYNOWA",
+        "destination": "NULL",
+        "fred": {
+            "x": 390,
+            "y": 540,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STODOLA PO CIEMKU",
+        "destination": "NULL",
+        "fred": {
+            "x": 409,
+            "y": 423,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "TOALETA",
+        "destination": "NULL",
+        "fred": {
+            "x": 320,
+            "y": 560,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "PRZEJSCIE MIEDZY TOALETA A CMENTARZEM",
+        "destination": "NULL",
+        "fred": {
+            "x": 445,
+            "y": 565,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "CMENTARZ",
+        "destination": "NULL",
+        "fred": {
+            "x": 70,
+            "y": 570,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STARSZA CZESC CMENTARZA",
+        "destination": "NULL",
+        "fred": {
+            "x": 80,
+            "y": 510,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "LAKA",
+        "destination": "NULL",
+        "fred": {
+            "x": 100,
+            "y": 580,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM Z POKOJEM NA PIETRZE",
+        "destination": "NULL",
+        "fred": {
+            "x": 220,
+            "y": 580,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "LESNA DROGA Z WOJSKOWYM JEEPEM",
+        "destination": "NULL",
+        "fred": {
+            "x": 265,
+            "y": 527,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "LESNA DROGA Z WOJSKOWYM JEEPEM",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 330,
+            "y": 590,
+            "direction": "E"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "LESNA DROGA Z WOJSKOWYM JEEPEM",
+        "fred": {
+            "x": 54,
+            "y": 560,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STODOLA",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 66,
+            "y": 307,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "STODOLA",
+        "fred": {
+            "x": 382,
+            "y": 440,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STODOLA PO CIEMKU",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 66,
+            "y": 307,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "STODOLA PO CIEMKU",
+        "fred": {
+            "x": 382,
+            "y": 440,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM LEKARZA",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 572,
+            "y": 161,
+            "direction": "B"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "DOM LEKARZA",
+        "fred": {
+            "x": 116,
+            "y": 575,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM KOWALA",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 40,
+            "y": 400,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "DOM KOWALA",
+        "fred": {
+            "x": 738,
+            "y": 581,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STACJA BENZYNOWA",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 679,
+            "y": 234,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "STACJA BENZYNOWA",
+        "fred": {
+            "x": 214,
+            "y": 545,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "CMENTARZ",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 684,
+            "y": 485,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "SKRZYZOWANIE",
+        "destination": "CMENTARZ",
+        "fred": {
+            "x": 59,
+            "y": 573,
+            "direction": "E"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "LAKA",
+        "destination": "SKRZYZOWANIE",
+        "fred": {
+            "x": 465,
+            "y": 574,
+            "direction": "E"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "OBOZ HIPPISOW",
+        "destination": "LESNA DROGA Z WOJSKOWYM JEEPEM",
+        "fred": {
+            "x": 257,
+            "y": 573,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "LESNA DROGA Z WOJSKOWYM JEEPEM",
+        "destination": "OBOZ HIPPISOW",
+        "fred": {
+            "x": 1470,
+            "y": 590,
+            "direction": "F"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM KOWALA",
+        "destination": "OBOZ HIPPISOW",
+        "fred": {
+            "x": 1570,
+            "y": 590,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM Z POKOJEM NA PIETRZE",
+        "destination": "DOM KOWALA",
+        "fred": {
+            "x": 61,
+            "y": 553,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM KOWALA",
+        "destination": "DOM Z POKOJEM NA PIETRZE",
+        "fred": {
+            "x": 184,
+            "y": 580,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "OGROD ZA DOMEM LEKARZA",
+        "destination": "DOM LEKARZA",
+        "fred": {
+            "x": 628,
+            "y": 478,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DOM LEKARZA",
+        "destination": "OGROD ZA DOMEM LEKARZA",
+        "fred": {
+            "x": 253,
+            "y": 577,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "TOALETA ZWYKLA",
+        "destination": "STACJA BENZYNOWA",
+        "fred": {
+            "x": 446,
+            "y": 408,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STACJA BENZYNOWA",
+        "destination": "TOALETA",
+        "fred": {
+            "x": 266,
+            "y": 535,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STACJA BENZYNOWA",
+        "destination": "TOALETA ZWYKLA",
+        "fred": {
+            "x": 266,
+            "y": 535,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "TOALETA",
+        "destination": "PRZEJSCIE MIEDZY TOALETA A CMENTARZEM",
+        "fred": {
+            "x": 40,
+            "y": 458,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "PRZEJSCIE MIEDZY TOALETA A CMENTARZEM",
+        "destination": "CMENTARZ",
+        "fred": {
+            "x": 59,
+            "y": 573,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "CMENTARZ",
+        "destination": "STARSZA CZESC CMENTARZA",
+        "fred": {
+            "x": 70,
+            "y": 480,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STARSZA CZESC CMENTARZA",
+        "destination": "CMENTARZ",
+        "fred": {
+            "x": 534,
+            "y": 360,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "STARSZA CZESC CMENTARZA",
+        "destination": "LAKA",
+        "fred": {
+            "x": 56,
+            "y": 571,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "POLANA Z GROBEM",
+        "destination": "NULL",
+        "fred": {
+            "x": 348,
+            "y": 425,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "POLANA Z GROBEM",
+        "destination": "NIEBO",
+        "fred": {
+            "x": 3200,
+            "y": 3200,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "NIEBO",
+        "destination": "PIEKLO",
+        "fred": {
+            "x": 3701,
+            "y": 3476,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": ""
+        }
+    },
+    {
+        "source": "WNETRZE SAMOCHODU",
+        "destination": "PARKING STRZEZONY",
+        "fred": {
+            "x": 4000,
+            "y": 4000,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 4000,
+            "y": 4000,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "WNETRZE SAMOCHODU1",
+        "destination": "PARKING STRZEZONY",
+        "fred": {
+            "x": 774,
+            "y": 391,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 700,
+            "y": 410,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PARKING STRZEZONY",
+        "destination": "WNETRZE SAMOCHODU1",
+        "fred": {
+            "x": 4000,
+            "y": 4000,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 4000,
+            "y": 4000,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "PIEKLO",
+        "destination": "NULL",
+        "fred": {
+            "x": 3701,
+            "y": 3476,
+            "direction": ""
+        },
+        "grucha": {
+            "x": null,
+            "y": null,
+            "direction": ""
+        }
+    },
+    {
+        "source": "PIEKLO",
+        "destination": "POLANA Z GROBEM",
+        "fred": {
+            "x": 350,
+            "y": 375,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "POLANA Z GROBEM",
+        "destination": "DROGA NA SKRAJU LASU",
+        "fred": {
+            "x": 1444,
+            "y": 546,
+            "direction": "F"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DROGA NA SKRAJU LASU",
+        "destination": "POLANA Z GROBEM",
+        "fred": {
+            "x": 110,
+            "y": 355,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DROGA Z AUTEM",
+        "destination": "POLANA Z GROBEM",
+        "fred": {
+            "x": 720,
+            "y": 330,
+            "direction": "H"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "POLANA Z GROBEM",
+        "destination": "DROGA Z AUTEM",
+        "fred": {
+            "x": 80,
+            "y": 533,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DROGA Z AUTEM",
+        "destination": "WNETRZE SAMOCHODU",
+        "fred": {
+            "x": 4000,
+            "y": 4000,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 4000,
+            "y": 4000,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "WNETRZE SAMOCHODU",
+        "destination": "Null",
+        "fred": {
+            "x": 760,
+            "y": 380,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 790,
+            "y": 380,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "DROGA Z AUTEM",
+        "destination": "Null",
+        "fred": {
+            "x": 80,
+            "y": 533,
+            "direction": ""
+        },
+        "grucha": {
+            "x": null,
+            "y": null,
+            "direction": ""
+        }
+    },
+    {
+        "source": "WNETRZE SAMOCHODU",
+        "destination": "DROGA Z AUTEM",
+        "fred": {
+            "x": 345,
+            "y": 381,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "WNETRZE SAMOCHODU",
+        "destination": "BRAMA PRZY RAKOWIECKIEJ",
+        "fred": {
+            "x": 1095,
+            "y": 448,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 885,
+            "y": 400,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "RAKOWIECKA",
+        "destination": "Null",
+        "fred": {
+            "x": 735,
+            "y": 505,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 827,
+            "y": 507,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PARKING STRZEZONY",
+        "destination": "RAKOWIECKA",
+        "fred": {
+            "x": 884,
+            "y": 498,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 962,
+            "y": 551,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "RAKOWIECKA",
+        "destination": "PARKING STRZEZONY",
+        "fred": {
+            "x": 93,
+            "y": 576,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 52,
+            "y": 529,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "BIBLIOTEKA",
+        "destination": "Null",
+        "fred": {
+            "x": 513,
+            "y": 560,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 602,
+            "y": 553,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "BLOKADA NA DRODZE",
+        "destination": "Null",
+        "fred": {
+            "x": 983,
+            "y": 475,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 1082,
+            "y": 475,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "DOM Z BIALYCH DESEK",
+        "destination": "Null",
+        "fred": {
+            "x": 446,
+            "y": 594,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 540,
+            "y": 586,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KAPLICZKA ZA MIASTEM",
+        "destination": "Null",
+        "fred": {
+            "x": 507,
+            "y": 560,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 615,
+            "y": 553,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KORYTARZ KLASZTORNY",
+        "destination": "Null",
+        "fred": {
+            "x": 321,
+            "y": 462,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 395,
+            "y": 450,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KRYPTA",
+        "destination": "Null",
+        "fred": {
+            "x": 356,
+            "y": 588,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 382,
+            "y": 568,
+            "direction": ""
+        }
+    },
+    {
+        "source": "MUSZLA KONCERTOWA",
+        "destination": "Null",
+        "fred": {
+            "x": 544,
+            "y": 455,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 630,
+            "y": 444,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "destination": "Null",
+        "fred": {
+            "x": 388,
+            "y": 574,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 487,
+            "y": 573,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PLAC PRZED ZAJAZDEM",
+        "destination": "Null",
+        "fred": {
+            "x": 300,
+            "y": 563,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 388,
+            "y": 555,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PODJAZD POD KLASZTOREM",
+        "destination": "Null",
+        "fred": {
+            "x": 443,
+            "y": 519,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 355,
+            "y": 524,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PODWORZE ZA TYMZE DOMEM",
+        "destination": "Null",
+        "fred": {
+            "x": 456,
+            "y": 496,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 374,
+            "y": 509,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "POKOJ NA PIETRZE ZAJAZDU",
+        "destination": "Null",
+        "fred": {
+            "x": 272,
+            "y": 512,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 395,
+            "y": 486,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ROZGLOSNIA RADIOWA",
+        "destination": "Null",
+        "fred": {
+            "x": 681,
+            "y": 473,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 599,
+            "y": 432,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ZAJAZD",
+        "destination": "Null",
+        "fred": {
+            "x": 105,
+            "y": 586,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 200,
+            "y": 589,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ZLOMOWISKO",
+        "destination": "Null",
+        "fred": {
+            "x": 560,
+            "y": 579,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 643,
+            "y": 573,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "MUSZLA KONCERTOWA",
+        "destination": "PLAC PRZED ZAJAZDEM",
+        "fred": {
+            "x": 83,
+            "y": 460,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 33,
+            "y": 458,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ZAJAZD",
+        "destination": "PLAC PRZED ZAJAZDEM",
+        "fred": {
+            "x": 750,
+            "y": 462,
+            "direction": "H"
+        },
+        "grucha": {
+            "x": 834,
+            "y": 472,
+            "direction": "H"
+        }
+    },
+    {
+        "source": "BLOKADA NA DRODZE",
+        "destination": "ZLOMOWISKO",
+        "fred": {
+            "x": 624,
+            "y": 577,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 746,
+            "y": 574,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "destination": "PLAC PRZED ZAJAZDEM",
+        "fred": {
+            "x": 24,
+            "y": 535,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 60,
+            "y": 467,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "BIBLIOTEKA",
+        "destination": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "fred": {
+            "x": 102,
+            "y": 573,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 244,
+            "y": 555,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "DOM Z BIALYCH DESEK",
+        "destination": "PLAC PRZED ZAJAZDEM",
+        "fred": {
+            "x": 301,
+            "y": 451,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 325,
+            "y": 475,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ROZGLOSNIA RADIOWA",
+        "destination": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "fred": {
+            "x": 220,
+            "y": 490,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 124,
+            "y": 494,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PLAC PRZED ZAJAZDEM",
+        "destination": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "fred": {
+            "x": 853,
+            "y": 578,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 918,
+            "y": 491,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "destination": "ROZGLOSNIA RADIOWA",
+        "fred": {
+            "x": 681,
+            "y": 473,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 599,
+            "y": 432,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "PLAC PRZED ZAJAZDEM",
+        "destination": "ZAJAZD",
+        "fred": {
+            "x": 105,
+            "y": 586,
+            "direction": "F"
+        },
+        "grucha": {
+            "x": 200,
+            "y": 589,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "PLAC PRZED ZAJAZDEM",
+        "destination": "ZLOMOWISKO",
+        "fred": {
+            "x": 222,
+            "y": 596,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 320,
+            "y": 597,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "KAPLICZKA ZA MIASTEM",
+        "destination": "ZLOMOWISKO",
+        "fred": {
+            "x": 297,
+            "y": 410,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 297,
+            "y": 380,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "DOM Z BIALYCH DESEK",
+        "destination": "PODWORZE ZA TYMZE DOMEM",
+        "fred": {
+            "x": 302,
+            "y": 582,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 187,
+            "y": 583,
+            "direction": "D"
+        }
+    },
+    {
+        "source": "MUSZLA KONCERTOWA",
+        "destination": "PODWORZE ZA TYMZE DOMEM",
+        "fred": {
+            "x": 767,
+            "y": 401,
+            "direction": "H"
+        },
+        "grucha": {
+            "x": 841,
+            "y": 392,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "BIBLIOTEKA",
+        "destination": "PODJAZD POD KLASZTOREM",
+        "fred": {
+            "x": 440,
+            "y": 540,
+            "direction": "E"
+        },
+        "grucha": {
+            "x": 344,
+            "y": 540,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "KRYPTA",
+        "destination": "PODJAZD POD KLASZTOREM",
+        "fred": {
+            "x": 355,
+            "y": 524,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 443,
+            "y": 519,
+            "direction": ""
+        }
+    },
+    {
+        "source": "PODWORZE ZA TYMZE DOMEM",
+        "destination": "MUSZLA KONCERTOWA",
+        "fred": {
+            "x": 110,
+            "y": 457,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 58,
+            "y": 431,
+            "direction": "B"
+        }
+    },
+    {
+        "source": "KORYTARZ KLASZTORNY",
+        "destination": "KRYPTA",
+        "fred": {
+            "x": 356,
+            "y": 588,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 382,
+            "y": 568,
+            "direction": ""
+        }
+    },
+    {
+        "source": "PODJAZD POD KLASZTOREM",
+        "destination": "KORYTARZ KLASZTORNY",
+        "fred": {
+            "x": 326,
+            "y": 410,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 379,
+            "y": 405,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ZLOMOWISKO",
+        "destination": "KAPLICZKA ZA MIASTEM",
+        "fred": {
+            "x": 588,
+            "y": 588,
+            "direction": "E"
+        },
+        "grucha": {
+            "x": 682,
+            "y": 545,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "PLAC PRZED ZAJAZDEM",
+        "destination": "DOM Z BIALYCH DESEK",
+        "fred": {
+            "x": 195,
+            "y": 590,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 98,
+            "y": 593,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "PODWORZE ZA TYMZE DOMEM",
+        "destination": "DOM Z BIALYCH DESEK",
+        "fred": {
+            "x": 646,
+            "y": 530,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 781,
+            "y": 517,
+            "direction": "H"
+        }
+    },
+    {
+        "source": "ZLOMOWISKO",
+        "destination": "PLAC PRZED ZAJAZDEM",
+        "fred": {
+            "x": 840,
+            "y": 576,
+            "direction": "G"
+        },
+        "grucha": {
+            "x": 900,
+            "y": 528,
+            "direction": "G"
+        }
+    },
+    {
+        "source": "PODJAZD POD KLASZTOREM",
+        "destination": "BIBLIOTEKA",
+        "fred": {
+            "x": 560,
+            "y": 344,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 622,
+            "y": 350,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "destination": "BIBLIOTEKA",
+        "fred": {
+            "x": 178,
+            "y": 582,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 66,
+            "y": 564,
+            "direction": "C"
+        }
+    },
+    {
+        "source": "ZAJAZD",
+        "destination": "POKOJ NA PIETRZE ZAJAZDU",
+        "fred": {
+            "x": 272,
+            "y": 512,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 395,
+            "y": 486,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ROZGLOSNIA RADIOWA",
+        "destination": "POKOJ NA PIETRZE ZAJAZDU",
+        "fred": {
+            "x": null,
+            "y": null,
+            "direction": ""
+        },
+        "grucha": {
+            "x": null,
+            "y": null,
+            "direction": ""
+        }
+    },
+    {
+        "source": "KOMIKS2",
+        "destination": "Null",
+        "fred": {
+            "x": -20,
+            "y": -20,
+            "direction": ""
+        },
+        "grucha": {
+            "x": -20,
+            "y": -20,
+            "direction": ""
+        }
+    },
+    {
+        "source": "KOMIKS2",
+        "destination": "PARKING PRZY ROZGLOSNI RADIOWEJ",
+        "fred": {
+            "x": 388,
+            "y": 574,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 487,
+            "y": 573,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KORYTARZ KLASZTORNY",
+        "destination": "KAPLICZKA ZA MIASTEM",
+        "fred": {
+            "x": 541,
+            "y": 401,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 636,
+            "y": 322,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ZAJAZD",
+        "destination": "PODJAZD POD KLASZTOREM",
+        "fred": {
+            "x": 467,
+            "y": 519,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 355,
+            "y": 524,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "PODJAZD POD KLASZTOREM",
+        "destination": "AKCJA W KLASZTORZE",
+        "fred": {
+            "x": -20,
+            "y": -20,
+            "direction": ""
+        },
+        "grucha": {
+            "x": -40,
+            "y": -40,
+            "direction": ""
+        }
+    },
+    {
+        "source": "AKCJA W KLASZTORZE",
+        "destination": "KORYTARZ KLASZTORNY",
+        "fred": {
+            "x": 326,
+            "y": 462,
+            "direction": ""
+        },
+        "grucha": {
+            "x": 395,
+            "y": 450,
+            "direction": ""
+        }
+    },
+    {
+        "source": "TOALETA ZWYKLA",
+        "destination": "PRZEJSCIE MIEDZY TOALETA A CMENTARZEM",
+        "fred": {
+            "x": 40,
+            "y": 458,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 0,
+            "y": 0,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "KAPLICZKA ZA MIASTEM",
+        "destination": "PLAC PRZED ZAJAZDEM",
+        "fred": {
+            "x": 565,
+            "y": 580,
+            "direction": "D"
+        },
+        "grucha": {
+            "x": 700,
+            "y": 570,
+            "direction": "E"
+        }
+    },
+    {
+        "source": "KAPLICZKA ZA MIASTEM",
+        "destination": "KONIEC",
+        "fred": {
+            "x": 319,
+            "y": 330,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 550,
+            "y": 330,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "KORYTARZ KLASZTORNY",
+        "destination": "PODJAZD POD KLASZTOREM",
+        "fred": {
+            "x": 467,
+            "y": 519,
+            "direction": "A"
+        },
+        "grucha": {
+            "x": 355,
+            "y": 524,
+            "direction": "A"
+        }
+    },
+    {
+        "source": "ZLOMOWISKO",
+        "destination": "BLOKADA NA DRODZE",
+        "fred": {
+            "x": 1380,
+            "y": 530,
+            "direction": "C"
+        },
+        "grucha": {
+            "x": 1320,
+            "y": 520,
+            "direction": "C"
+        }
+    }
+]

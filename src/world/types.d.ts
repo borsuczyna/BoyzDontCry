@@ -52,3 +52,18 @@ interface World {
         backgroundSFXVolume: number;
     };
 };
+
+interface LocationPosition {
+    source: string;
+    destination: string;
+    fred: {
+        x: number;
+        y: number;
+        direction: string;
+    };
+    grucha: {
+        x: number;
+        y: number;
+        direction: string;
+    };
+}
