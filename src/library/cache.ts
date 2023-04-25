@@ -1,3 +1,4 @@
+import { triggerEvent } from "../events/main";
 import { findSprite } from "./main";
 
 interface CacheElement {
@@ -12,7 +13,7 @@ const cache: CacheElement[] = [];
 
 function checkFinishedLoading(): void {
     let finished: boolean = cache.every(element => element.loaded);
-    
+    triggerEvent('cache:loading-finished');
 }
 
 export function loadSprite(name: string, library?: string): boolean {
@@ -33,6 +34,7 @@ export function loadSprite(name: string, library?: string): boolean {
     element.image.src = `graphics/${sprite}.png`;
     element.image.addEventListener('load', function() {
         if(element) element.loaded = true;
+        checkFinishedLoading();
     });
 
     cache.push(element);
