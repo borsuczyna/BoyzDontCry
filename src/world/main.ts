@@ -1,6 +1,9 @@
 import { BackgroundAnimation, LocationElements, Location, LocationPosition, Layer, Hotpoint } from './types';
 import locationsData from './data/locations.json';
 import positionsData from './data/positions.json';
+import { loadSprite } from '../library/cache';
+import Render from '../render/main';
+import { triggerEvent } from '../events/main';
 const locations: Location[] = locationsData as unknown as Location[];
 const positions: LocationPosition[] = positionsData as unknown as LocationPosition[];
 
@@ -26,7 +29,10 @@ export class World {
         this.layers = layers;
         
         for(let layer of layers.elements) {
-            
+            let success: boolean = loadSprite(layer.name, this.location, (ev) => {
+                triggerEvent('game:addDebugText', `loaded layer "${layer.name}"`);
+            });
+            triggerEvent('game:addDebugText', success ? `layer "${layer.name}" queued` : `failed to queue layer "${layer.name}"`);
         }
     }
 
@@ -43,6 +49,9 @@ export class World {
         let location: Location | undefined = this.getLocationByName(name);
         if(!location) return;
 
+        triggerEvent('loading:toggleLoadingScreen', true);
+
+        this.location = name;
         this.loadLayers(location.layers);
     }
 }

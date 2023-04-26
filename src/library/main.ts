@@ -8,7 +8,7 @@ interface GraphicsData {
 
 // just remove .png and .jpg from animation name
 export function clearAnimationName(animation: string): string {
-    return animation.replaceAll('.PNG', '').replaceAll('.JPG', '');
+    return animation.toLowerCase().replaceAll('.PNG', '').replaceAll('.JPG', '');
 }
 
 export function findSprite(library: string | undefined, targetAnimation: string): number | undefined {

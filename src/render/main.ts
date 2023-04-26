@@ -9,9 +9,17 @@ export default class Render {
         this.context = canvas.getContext('2d')!;
     }
 
-    drawRectangle(x: number, y: number, width: number, height: number, color: string): void {
+    drawRectangle(x: number, y: number, width: number, height: number, color: string = 'black'): void {
         this.context.fillStyle = color;
         this.context.fillRect(x, y, width, height);
+    }
+
+    drawText(text: string, x: number, y: number, color: string = 'string', alignX: CanvasTextAlign = 'left', alignY: CanvasTextBaseline = 'top', font: string = '15px Arial'): void {
+        this.context.fillStyle = color;
+        this.context.textAlign = alignX;
+        this.context.textBaseline = alignY;
+        this.context.font = font;
+        this.context.fillText(text, x, y);
     }
 
     clear(): void {
