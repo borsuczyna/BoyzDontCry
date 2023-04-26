@@ -7,13 +7,15 @@ export interface CacheElement {
     sprite: number;
     image: HTMLImageElement;
     loaded: boolean;
+    width: number;
+    height: number;
 };
 
 const cache: CacheElement[] = [];
 
 function checkFinishedLoading(): void {
     let finished: boolean = cache.every(element => element.loaded);
-    triggerEvent('cache:loading-finished');
+    if(finished) triggerEvent('cache:loading-finished');
 }
 
 export function loadSprite(name: string, library?: string, customCallback?: (this: HTMLImageElement, ev?: Event) => void): CacheElement | undefined {
@@ -38,16 +40,23 @@ export function loadSprite(name: string, library?: string, customCallback?: (thi
         library: library,
         sprite: sprite,
         image: new Image(),
-        loaded: false
+        loaded: false,
+        width: 1,
+        height: 1,
     }
     element.image.src = `graphics/${sprite}.${format}`;
 
     // load listeners
     if(customCallback) element.image.addEventListener('load', customCallback);
-    element.image.addEventListener('load', function() {
-        if(element) element.loaded = true;
-        triggerEvent('game:addDebugText', `loaded sprite "${library}/${name}"`);
-        checkFinishedLoading();
+    element.image.addEventListener('load', function(this) {
+        if(element) {
+            element.loaded = true;
+            element.width = this.width;
+            element.height = this.height;
+
+            triggerEvent('game:addDebugText', `loaded sprite "${library}/${name}"`);
+            checkFinishedLoading();
+        }
     });
 
     // push to the cache

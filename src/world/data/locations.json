@@ -10,56 +10,56 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Centrum handlowe_1.png",
                     "background": false,
                     "x": 288,
                     "y": 0,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Centrum handlowe_2.png",
                     "background": false,
                     "x": 685,
                     "y": 526,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Centrum handlowe_3.png",
                     "background": false,
                     "x": 1454,
                     "y": 443,
-                    "depth": 252
+                    "z": 252
                 },
                 {
                     "name": "Centrum handlowe_4.png",
                     "background": false,
                     "x": 1821,
                     "y": 437,
-                    "depth": 252
+                    "z": 252
                 },
                 {
                     "name": "Centrum handlowe_5.png",
                     "background": false,
                     "x": 1655,
                     "y": 368,
-                    "depth": 218
+                    "z": 218
                 },
                 {
                     "name": "Centrum handlowe_6.png",
                     "background": false,
                     "x": 1598,
                     "y": 7,
-                    "depth": 212
+                    "z": 212
                 },
                 {
                     "name": "Centrum handlowe_7.png",
                     "background": false,
                     "x": 706,
                     "y": 64,
-                    "depth": 229
+                    "z": 229
                 }
             ]
         },
@@ -470,49 +470,49 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Kafejka Internetowa_1.png",
                     "background": false,
                     "x": 528,
                     "y": 460,
-                    "depth": 244
+                    "z": 244
                 },
                 {
                     "name": "Kafejka Internetowa_2.png",
                     "background": false,
                     "x": 287,
                     "y": 378,
-                    "depth": 253
+                    "z": 253
                 },
                 {
                     "name": "Kafejka Internetowa_3.png",
                     "background": false,
                     "x": 120,
                     "y": 362,
-                    "depth": 239
+                    "z": 239
                 },
                 {
                     "name": "Kafejka Internetowa_4.png",
                     "background": false,
                     "x": 201,
                     "y": 363,
-                    "depth": 244
+                    "z": 244
                 },
                 {
                     "name": "Kafejka Internetowa_5.png",
                     "background": false,
                     "x": 120,
                     "y": 275,
-                    "depth": 238
+                    "z": 238
                 },
                 {
                     "name": "Kafejka Internetowa_6.png",
                     "background": false,
                     "x": 125,
                     "y": 434,
-                    "depth": 241
+                    "z": 241
                 }
             ]
         },
@@ -1157,21 +1157,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Okolice kosciola_1.png",
                     "background": false,
                     "x": 304,
                     "y": 389,
-                    "depth": 228
+                    "z": 228
                 },
                 {
                     "name": "Okolice kosciola_2.png",
                     "background": false,
                     "x": 123,
                     "y": 218,
-                    "depth": 4
+                    "z": 4
                 }
             ]
         },
@@ -1610,14 +1610,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Parking strzezony_1.png",
                     "background": false,
                     "x": -19,
                     "y": 96,
-                    "depth": 220
+                    "z": 220
                 }
             ]
         },
@@ -2175,28 +2175,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Plac za miastem_1.png",
                     "background": false,
                     "x": 532,
                     "y": 281,
-                    "depth": 135
+                    "z": 135
                 },
                 {
                     "name": "Plac za miastem_2.png",
                     "background": false,
                     "x": 1612,
                     "y": 54,
-                    "depth": 175
+                    "z": 175
                 },
                 {
                     "name": "Plac za miastem_3.png",
                     "background": false,
                     "x": 1438,
                     "y": 311,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },
@@ -2565,63 +2565,63 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "rakowiecka_1.png",
                     "background": false,
                     "x": 0,
                     "y": 0,
-                    "depth": 239
+                    "z": 239
                 },
                 {
                     "name": "rakowiecka_2.png",
                     "background": false,
                     "x": 178,
                     "y": 402,
-                    "depth": 194
+                    "z": 194
                 },
                 {
                     "name": "rakowiecka_3.png",
                     "background": false,
                     "x": 117,
                     "y": 424,
-                    "depth": 221
+                    "z": 221
                 },
                 {
                     "name": "rakowiecka_4.png",
                     "background": false,
                     "x": 232,
                     "y": 157,
-                    "depth": 179
+                    "z": 179
                 },
                 {
                     "name": "rakowiecka_5.png",
                     "background": false,
                     "x": 211,
                     "y": 408,
-                    "depth": 180
+                    "z": 180
                 },
                 {
                     "name": "rakowiecka_6.png",
                     "background": false,
                     "x": 148,
                     "y": 415,
-                    "depth": 204
+                    "z": 204
                 },
                 {
                     "name": "rakowiecka_8.png",
                     "background": false,
                     "x": 326,
                     "y": 0,
-                    "depth": 244
+                    "z": 244
                 },
                 {
                     "name": "rakowiecka_9.png",
                     "background": false,
                     "x": 908,
                     "y": 0,
-                    "depth": 247
+                    "z": 247
                 }
             ]
         },
@@ -2957,14 +2957,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Siedziba mafii_2.png",
                     "background": false,
                     "x": 328,
                     "y": 0,
-                    "depth": 255
+                    "z": 255
                 }
             ]
         },
@@ -3256,28 +3256,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Skejtpark 1_1.png",
                     "background": false,
                     "x": 0,
                     "y": 51,
-                    "depth": 135
+                    "z": 135
                 },
                 {
                     "name": "Skejtpark 1_2.png",
                     "background": false,
                     "x": 384,
                     "y": 324,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "Skejtpark 1_3.png",
                     "background": false,
                     "x": 859,
                     "y": 144,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },
@@ -3632,63 +3632,63 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Skejtpark 2_1.png",
                     "background": false,
                     "x": 0,
                     "y": 513,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Skejtpark 2_3.png",
                     "background": false,
                     "x": 570,
                     "y": 384,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "Skejtpark 2_4.png",
                     "background": false,
                     "x": 770,
                     "y": 373,
-                    "depth": 100
+                    "z": 100
                 },
                 {
                     "name": "Skejtpark 2_5.png",
                     "background": false,
                     "x": 362,
                     "y": 408,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "Skejtpark 2_6.png",
                     "background": false,
                     "x": 180,
                     "y": 359,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "Skejtpark 2_7.png",
                     "background": false,
                     "x": 400,
                     "y": 335,
-                    "depth": 66
+                    "z": 66
                 },
                 {
                     "name": "Skejtpark 2_9.png",
                     "background": false,
                     "x": 570,
                     "y": 384,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "Skejtpark 2_8.png",
                     "background": false,
                     "x": 319,
                     "y": 204,
-                    "depth": 150
+                    "z": 150
                 }
             ]
         },
@@ -3971,14 +3971,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Sklep plytowy_3.png",
                     "background": false,
                     "x": 399,
                     "y": 201,
-                    "depth": 130
+                    "z": 130
                 }
             ]
         },
@@ -4283,35 +4283,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Szkola_1.png",
                     "background": false,
                     "x": 223,
                     "y": 424,
-                    "depth": 170
+                    "z": 170
                 },
                 {
                     "name": "Szkola_2.png",
                     "background": false,
                     "x": 89,
                     "y": 0,
-                    "depth": 174
+                    "z": 174
                 },
                 {
                     "name": "Szkola_3.png",
                     "background": false,
                     "x": 0,
                     "y": 129,
-                    "depth": 184
+                    "z": 184
                 },
                 {
                     "name": "Szkola_4.png",
                     "background": false,
                     "x": 1939,
                     "y": 209,
-                    "depth": 170
+                    "z": 170
                 }
             ]
         },
@@ -4815,7 +4815,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -4944,35 +4944,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Cmentarz_1.png",
                     "background": false,
                     "x": 143,
                     "y": 470,
-                    "depth": 255
+                    "z": 255
                 },
                 {
                     "name": "Cmentarz_2.png",
                     "background": false,
                     "x": 600,
                     "y": 445,
-                    "depth": 240
+                    "z": 240
                 },
                 {
                     "name": "Cmentarz_3.png",
                     "background": false,
                     "x": 493,
                     "y": 383,
-                    "depth": 170
+                    "z": 170
                 },
                 {
                     "name": "Cmentarz_5.png",
                     "background": false,
                     "x": 408,
                     "y": 300,
-                    "depth": 20
+                    "z": 20
                 }
             ]
         },
@@ -5359,14 +5359,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Dom kowala_1.png",
                     "background": false,
                     "x": 674,
                     "y": 141,
-                    "depth": 180
+                    "z": 180
                 }
             ]
         },
@@ -5571,35 +5571,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Dom lekarza_2.png",
                     "background": false,
                     "x": 307,
                     "y": -44,
-                    "depth": 254
+                    "z": 254
                 },
                 {
                     "name": "Dom lekarza_3.png",
                     "background": false,
                     "x": 253,
                     "y": 280,
-                    "depth": 2
+                    "z": 2
                 },
                 {
                     "name": "Dom lekarza_4.png",
                     "background": false,
                     "x": 122,
                     "y": 44,
-                    "depth": 4
+                    "z": 4
                 },
                 {
                     "name": "Dom lekarza_5.png",
                     "background": false,
                     "x": 207,
                     "y": 310,
-                    "depth": 4
+                    "z": 4
                 }
             ]
         },
@@ -5898,21 +5898,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Dom z pokojem na pietrze_1.png",
                     "background": false,
                     "x": 0,
                     "y": 206,
-                    "depth": 254
+                    "z": 254
                 },
                 {
                     "name": "Dom z pokojem na pietrze_2.png",
                     "background": false,
                     "x": 375,
                     "y": 67,
-                    "depth": 4
+                    "z": 4
                 }
             ]
         },
@@ -6135,7 +6135,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -6174,7 +6174,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -6532,42 +6532,42 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Lesna droga z wojskowym jeepem_3.png",
                     "background": false,
                     "x": 435,
                     "y": 498,
-                    "depth": 238
+                    "z": 238
                 },
                 {
                     "name": "Lesna droga z wojskowym jeepem_4.png",
                     "background": false,
                     "x": 286,
                     "y": 507,
-                    "depth": 238
+                    "z": 238
                 },
                 {
                     "name": "Lesna droga z wojskowym jeepem_6.png",
                     "background": false,
                     "x": 465,
                     "y": 470,
-                    "depth": 233
+                    "z": 233
                 },
                 {
                     "name": "Lesna droga z wojskowym jeepem_7.png",
                     "background": false,
                     "x": 430,
                     "y": 345,
-                    "depth": 228
+                    "z": 228
                 },
                 {
                     "name": "Lesna droga z wojskowym jeepem_2.png",
                     "background": false,
                     "x": 410,
                     "y": 0,
-                    "depth": 230
+                    "z": 230
                 }
             ]
         },
@@ -6903,77 +6903,77 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Oboz hipisow_1.png",
                     "background": false,
                     "x": 649,
                     "y": 393,
-                    "depth": 182
+                    "z": 182
                 },
                 {
                     "name": "Oboz hipisow_2.png",
                     "background": false,
                     "x": 607,
                     "y": 474,
-                    "depth": 225
+                    "z": 225
                 },
                 {
                     "name": "Oboz hipisow_4.png",
                     "background": false,
                     "x": 861,
                     "y": 0,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Oboz hipisow_5.png",
                     "background": false,
                     "x": 0,
                     "y": 330,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Oboz hipisow_6.png",
                     "background": false,
                     "x": 1367,
                     "y": 515,
-                    "depth": 233
+                    "z": 233
                 },
                 {
                     "name": "Oboz hipisow_7.png",
                     "background": false,
                     "x": 937,
                     "y": 381,
-                    "depth": 168
+                    "z": 168
                 },
                 {
                     "name": "Oboz hipisow_8.png",
                     "background": false,
                     "x": 1241,
                     "y": 286,
-                    "depth": 196
+                    "z": 196
                 },
                 {
                     "name": "Oboz hipisow_9.png",
                     "background": false,
                     "x": 915,
                     "y": 452,
-                    "depth": 209
+                    "z": 209
                 },
                 {
                     "name": "Oboz hipisow_11.png",
                     "background": false,
                     "x": 577,
                     "y": 432,
-                    "depth": 10
+                    "z": 10
                 },
                 {
                     "name": "Oboz hipisow_13.png",
                     "background": false,
                     "x": 324,
                     "y": 419,
-                    "depth": 197
+                    "z": 197
                 }
             ]
         },
@@ -7314,42 +7314,42 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Ogrod za domem lekarza_2.png",
                     "background": false,
                     "x": 606,
                     "y": 349,
-                    "depth": 100
+                    "z": 100
                 },
                 {
                     "name": "Ogrod za domem lekarza_3.png",
                     "background": false,
                     "x": 0,
                     "y": 153,
-                    "depth": 160
+                    "z": 160
                 },
                 {
                     "name": "Ogrod za domem lekarza_4.png",
                     "background": false,
                     "x": 551,
                     "y": 417,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Ogrod za domem lekarza_1.png",
                     "background": false,
                     "x": 234,
                     "y": 454,
-                    "depth": 100
+                    "z": 100
                 },
                 {
                     "name": "Ogrod za domem lekarza_5.png",
                     "background": false,
                     "x": 62,
                     "y": 348,
-                    "depth": 110
+                    "z": 110
                 }
             ]
         },
@@ -7747,21 +7747,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Przejscie miedzy toaleta a cmentarzem_02.png",
                     "background": false,
                     "x": 608,
                     "y": 389,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Przejscie miedzy toaleta a cmentarzem_03.png",
                     "background": false,
                     "x": 341,
                     "y": 508,
-                    "depth": 243
+                    "z": 243
                 }
             ]
         },
@@ -7933,21 +7933,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Skrzyzowanie_2.png",
                     "background": false,
                     "x": 0,
                     "y": 286,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Skrzyzowanie_4.png",
                     "background": false,
                     "x": 659,
                     "y": 153,
-                    "depth": 71
+                    "z": 71
                 }
             ]
         },
@@ -8177,28 +8177,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Stacja benzynowa_2.png",
                     "background": false,
                     "x": 129,
                     "y": 87,
-                    "depth": 224
+                    "z": 224
                 },
                 {
                     "name": "Stacja benzynowa_3.png",
                     "background": false,
                     "x": 93,
                     "y": 82,
-                    "depth": 225
+                    "z": 225
                 },
                 {
                     "name": "Stacja benzynowa_4.png",
                     "background": false,
                     "x": 500,
                     "y": 363,
-                    "depth": 180
+                    "z": 180
                 }
             ]
         },
@@ -8502,14 +8502,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": 1
+                    "z": 1
                 },
                 {
                     "name": "Starsza czesc cmentarza_2.png",
                     "background": false,
                     "x": 0,
                     "y": 414,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },
@@ -8800,7 +8800,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": 0
+                    "z": 0
                 }
             ]
         },
@@ -8956,7 +8956,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -9022,14 +9022,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Toaleta_4.png",
                     "background": false,
                     "x": 591,
                     "y": 385,
-                    "depth": 248
+                    "z": 248
                 }
             ]
         },
@@ -9279,14 +9279,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Toaleta_4.png",
                     "background": false,
                     "x": 591,
                     "y": 385,
-                    "depth": 247
+                    "z": 247
                 }
             ]
         },
@@ -9527,35 +9527,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Toaleta_1.png",
                     "background": false,
                     "x": 499,
                     "y": 333,
-                    "depth": 1
+                    "z": 1
                 },
                 {
                     "name": "Toaleta_2.png",
                     "background": false,
                     "x": 357,
                     "y": 308,
-                    "depth": 2
+                    "z": 2
                 },
                 {
                     "name": "Toaleta_3.png",
                     "background": false,
                     "x": 35,
                     "y": 485,
-                    "depth": 3
+                    "z": 3
                 },
                 {
                     "name": "Toaleta_4.png",
                     "background": false,
                     "x": 591,
                     "y": 167,
-                    "depth": 4
+                    "z": 4
                 }
             ]
         },
@@ -9621,28 +9621,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "biblioteka_1.png",
                     "background": false,
                     "x": 160,
                     "y": 418,
-                    "depth": 142
+                    "z": 142
                 },
                 {
                     "name": "biblioteka_2.png",
                     "background": false,
                     "x": 661,
                     "y": 235,
-                    "depth": 90
+                    "z": 90
                 },
                 {
                     "name": "biblioteka_3.png",
                     "background": false,
                     "x": 442,
                     "y": 206,
-                    "depth": 60
+                    "z": 60
                 }
             ]
         },
@@ -9972,35 +9972,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "blokada na drodze_02.png",
                     "background": false,
                     "x": 998,
                     "y": 160,
-                    "depth": 176
+                    "z": 176
                 },
                 {
                     "name": "blokada na drodze_03.png",
                     "background": false,
                     "x": 544,
                     "y": 444,
-                    "depth": 254
+                    "z": 254
                 },
                 {
                     "name": "blokada na drodze_04.png",
                     "background": false,
                     "x": 1135,
                     "y": 401,
-                    "depth": 254
+                    "z": 254
                 },
                 {
                     "name": "blokada na drodze_05.png",
                     "background": false,
                     "x": 1089,
                     "y": 403,
-                    "depth": 254
+                    "z": 254
                 }
             ]
         },
@@ -10772,21 +10772,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Dom z bialych desek_1.png",
                     "background": false,
                     "x": 441,
                     "y": 329,
-                    "depth": 7
+                    "z": 7
                 },
                 {
                     "name": "Dom z bialych desek_2.png",
                     "background": false,
                     "x": 714,
                     "y": 224,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },
@@ -11093,28 +11093,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "wzgorze zkapliczka_1.png",
                     "background": false,
                     "x": 687,
                     "y": 23,
-                    "depth": 79
+                    "z": 79
                 },
                 {
                     "name": "wzgorze zkapliczka_2.png",
                     "background": false,
                     "x": 683,
                     "y": 388,
-                    "depth": 238
+                    "z": 238
                 },
                 {
                     "name": "wzgorze zkapliczka_3.png",
                     "background": false,
                     "x": 310,
                     "y": 139,
-                    "depth": 140
+                    "z": 140
                 }
             ]
         },
@@ -11606,7 +11606,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -11645,28 +11645,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "biblioteka_1.png",
                     "background": false,
                     "x": 160,
                     "y": 418,
-                    "depth": 142
+                    "z": 142
                 },
                 {
                     "name": "biblioteka_2.png",
                     "background": false,
                     "x": 661,
                     "y": 235,
-                    "depth": 90
+                    "z": 90
                 },
                 {
                     "name": "biblioteka_3.png",
                     "background": false,
                     "x": 442,
                     "y": 206,
-                    "depth": 60
+                    "z": 60
                 }
             ]
         },
@@ -11996,7 +11996,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -12044,14 +12044,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "korytarz klasztorny_02.png",
                     "background": false,
                     "x": 217,
                     "y": 453,
-                    "depth": 230
+                    "z": 230
                 }
             ]
         },
@@ -13074,28 +13074,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "muszla koncertowa_01.png",
                     "background": false,
                     "x": 0,
                     "y": 341,
-                    "depth": 254
+                    "z": 254
                 },
                 {
                     "name": "muszla koncertowa_02.png",
                     "background": false,
                     "x": 743,
                     "y": 491,
-                    "depth": 254
+                    "z": 254
                 },
                 {
                     "name": "muszla koncertowa_03.png",
                     "background": false,
                     "x": 675,
                     "y": 121,
-                    "depth": 175
+                    "z": 175
                 }
             ]
         },
@@ -13378,42 +13378,42 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_1.png",
                     "background": false,
                     "x": 450,
                     "y": 235,
-                    "depth": 131
+                    "z": 131
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_2.png",
                     "background": false,
                     "x": 608,
                     "y": 87,
-                    "depth": 110
+                    "z": 110
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_3.png",
                     "background": false,
                     "x": 278,
                     "y": 176,
-                    "depth": 90
+                    "z": 90
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_4.png",
                     "background": false,
                     "x": 683,
                     "y": 165,
-                    "depth": 67
+                    "z": 67
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_5.png",
                     "background": false,
                     "x": 325,
                     "y": 424,
-                    "depth": 92
+                    "z": 92
                 }
             ]
         },
@@ -13917,42 +13917,42 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_1.png",
                     "background": false,
                     "x": 450,
                     "y": 235,
-                    "depth": 131
+                    "z": 131
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_2.png",
                     "background": false,
                     "x": 608,
                     "y": 87,
-                    "depth": 110
+                    "z": 110
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_3.png",
                     "background": false,
                     "x": 278,
                     "y": 176,
-                    "depth": 90
+                    "z": 90
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_4.png",
                     "background": false,
                     "x": 683,
                     "y": 165,
-                    "depth": 67
+                    "z": 67
                 },
                 {
                     "name": "Parking przy rozglosni radiowej_5.png",
                     "background": false,
                     "x": 325,
                     "y": 424,
-                    "depth": 92
+                    "z": 92
                 }
             ]
         },
@@ -14429,28 +14429,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "plac przed zajazdem_01.png",
                     "background": false,
                     "x": 889,
                     "y": 426,
-                    "depth": 230
+                    "z": 230
                 },
                 {
                     "name": "plac przed zajazdem_02.png",
                     "background": false,
                     "x": 371,
                     "y": 34,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "plac przed zajazdem_03.png",
                     "background": false,
                     "x": 108,
                     "y": 247,
-                    "depth": 87
+                    "z": 87
                 }
             ]
         },
@@ -14763,7 +14763,7 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 }
             ]
         },
@@ -15291,21 +15291,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "podworze za tymze domem_01.png",
                     "background": false,
                     "x": 0,
                     "y": 478,
-                    "depth": 210
+                    "z": 210
                 },
                 {
                     "name": "podworze za tymze domem_02.png",
                     "background": false,
                     "x": 379,
                     "y": 339,
-                    "depth": 231
+                    "z": 231
                 }
             ]
         },
@@ -15930,28 +15930,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "pokoj na pietrze_2.png",
                     "background": false,
                     "x": 76,
                     "y": 343,
-                    "depth": 225
+                    "z": 225
                 },
                 {
                     "name": "pokoj na pietrze_4.png",
                     "background": false,
                     "x": 500,
                     "y": 0,
-                    "depth": 178
+                    "z": 178
                 },
                 {
                     "name": "pokoj na pietrze_5.png",
                     "background": false,
                     "x": 707,
                     "y": 467,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },
@@ -16250,21 +16250,21 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "rozglosnia radiowa_1.png",
                     "background": false,
                     "x": 228,
                     "y": 514,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "rozglosnia radiowa_5.png",
                     "background": false,
                     "x": 438,
                     "y": 228,
-                    "depth": 250
+                    "z": 250
                 }
             ]
         },
@@ -16792,98 +16792,98 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "zajazd_1.png",
                     "background": false,
                     "x": 412,
                     "y": 535,
-                    "depth": 255
+                    "z": 255
                 },
                 {
                     "name": "zajazd_10.png",
                     "background": false,
                     "x": 515,
                     "y": 257,
-                    "depth": 108
+                    "z": 108
                 },
                 {
                     "name": "zajazd_11.png",
                     "background": false,
                     "x": 468,
                     "y": 284,
-                    "depth": 127
+                    "z": 127
                 },
                 {
                     "name": "zajazd_2.png",
                     "background": false,
                     "x": 533,
                     "y": 384,
-                    "depth": 214
+                    "z": 214
                 },
                 {
                     "name": "zajazd_3.png",
                     "background": false,
                     "x": 751,
                     "y": 441,
-                    "depth": 230
+                    "z": 230
                 },
                 {
                     "name": "zajazd_4.png",
                     "background": false,
                     "x": 579,
                     "y": 368,
-                    "depth": 219
+                    "z": 219
                 },
                 {
                     "name": "zajazd_5.png",
                     "background": false,
                     "x": 657,
                     "y": 260,
-                    "depth": 160
+                    "z": 160
                 },
                 {
                     "name": "zajazd_6.png",
                     "background": false,
                     "x": 783,
                     "y": 312,
-                    "depth": 160
+                    "z": 160
                 },
                 {
                     "name": "zajazd_7.png",
                     "background": false,
                     "x": 607,
                     "y": 282,
-                    "depth": 141
+                    "z": 141
                 },
                 {
                     "name": "zajazd_8.png",
                     "background": false,
                     "x": 493,
                     "y": 176,
-                    "depth": 90
+                    "z": 90
                 },
                 {
                     "name": "zajazd_9.png",
                     "background": false,
                     "x": 338,
                     "y": 349,
-                    "depth": 190
+                    "z": 190
                 },
                 {
                     "name": "zajazd_12.png",
                     "background": false,
                     "x": 708,
                     "y": 248,
-                    "depth": 105
+                    "z": 105
                 },
                 {
                     "name": "zajazd_13.png",
                     "background": false,
                     "x": 701,
                     "y": 315,
-                    "depth": 140
+                    "z": 140
                 }
             ]
         },
@@ -17329,112 +17329,112 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "zlomowisko_01.png",
                     "background": false,
                     "x": 1266,
                     "y": 286,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "zlomowisko_03.png",
                     "background": false,
                     "x": 1264,
                     "y": 305,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "zlomowisko_04.png",
                     "background": false,
                     "x": 1244,
                     "y": 252,
-                    "depth": 240
+                    "z": 240
                 },
                 {
                     "name": "zlomowisko_05.png",
                     "background": false,
                     "x": 1248,
                     "y": 527,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "zlomowisko_6.png",
                     "background": false,
                     "x": 93,
                     "y": 451,
-                    "depth": 203
+                    "z": 203
                 },
                 {
                     "name": "zlomowisko_7.png",
                     "background": false,
                     "x": 575,
                     "y": 157,
-                    "depth": 203
+                    "z": 203
                 },
                 {
                     "name": "zlomowisko_8.png",
                     "background": false,
                     "x": 853,
                     "y": 449,
-                    "depth": 203
+                    "z": 203
                 },
                 {
                     "name": "zlomowisko_9.png",
                     "background": false,
                     "x": 335,
                     "y": 268,
-                    "depth": 168
+                    "z": 168
                 },
                 {
                     "name": "zlomowisko_10.png",
                     "background": false,
                     "x": 0,
                     "y": 342,
-                    "depth": 202
+                    "z": 202
                 },
                 {
                     "name": "zlomowisko_11.png",
                     "background": false,
                     "x": 1548,
                     "y": 95,
-                    "depth": 255
+                    "z": 255
                 },
                 {
                     "name": "zlomowisko_12.png",
                     "background": false,
                     "x": 1139,
                     "y": 188,
-                    "depth": 200
+                    "z": 200
                 },
                 {
                     "name": "zlomowisko_15.png",
                     "background": false,
                     "x": 704,
                     "y": 250,
-                    "depth": 202
+                    "z": 202
                 },
                 {
                     "name": "zlomowisko_14.png",
                     "background": false,
                     "x": 858,
                     "y": 268,
-                    "depth": 202
+                    "z": 202
                 },
                 {
                     "name": "zlomowisko_13.png",
                     "background": false,
                     "x": 854,
                     "y": 361,
-                    "depth": 201
+                    "z": 201
                 },
                 {
                     "name": "zlomowisko_16.png",
                     "background": false,
                     "x": 858,
                     "y": 189,
-                    "depth": 245
+                    "z": 245
                 }
             ]
         },
@@ -17700,70 +17700,70 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Brama na rakowieckiej_1.png",
                     "background": false,
                     "x": 0,
                     "y": 0,
-                    "depth": 239
+                    "z": 239
                 },
                 {
                     "name": "Brama na rakowieckiej_2.png",
                     "background": false,
                     "x": 178,
                     "y": 402,
-                    "depth": 194
+                    "z": 194
                 },
                 {
                     "name": "Brama na rakowieckiej_3.png",
                     "background": false,
                     "x": 117,
                     "y": 424,
-                    "depth": 221
+                    "z": 221
                 },
                 {
                     "name": "Brama na rakowieckiej_4.png",
                     "background": false,
                     "x": 232,
                     "y": 157,
-                    "depth": 180
+                    "z": 180
                 },
                 {
                     "name": "Brama na rakowieckiej_5.png",
                     "background": false,
                     "x": 211,
                     "y": 408,
-                    "depth": 180
+                    "z": 180
                 },
                 {
                     "name": "Brama na rakowieckiej_6.png",
                     "background": false,
                     "x": 148,
                     "y": 415,
-                    "depth": 204
+                    "z": 204
                 },
                 {
                     "name": "Brama na rakowieckiej_7.png",
                     "background": false,
                     "x": 768,
                     "y": 118,
-                    "depth": 191
+                    "z": 191
                 },
                 {
                     "name": "Brama na rakowieckiej_8.png",
                     "background": false,
                     "x": 326,
                     "y": 0,
-                    "depth": 244
+                    "z": 244
                 },
                 {
                     "name": "Brama na rakowieckiej_9.png",
                     "background": false,
                     "x": 907,
                     "y": 0,
-                    "depth": 247
+                    "z": 247
                 }
             ]
         },
@@ -18099,49 +18099,49 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "DROGA NA SKRAJU LASU_01.png",
                     "background": false,
                     "x": 1494,
                     "y": 505,
-                    "depth": 240
+                    "z": 240
                 },
                 {
                     "name": "DROGA NA SKRAJU LASU_02.png",
                     "background": false,
                     "x": 1586,
                     "y": 427,
-                    "depth": 248
+                    "z": 248
                 },
                 {
                     "name": "DROGA NA SKRAJU LASU_03.png",
                     "background": false,
                     "x": 989,
                     "y": 344,
-                    "depth": 242
+                    "z": 242
                 },
                 {
                     "name": "DROGA NA SKRAJU LASU_04.png",
                     "background": false,
                     "x": 1375,
                     "y": 475,
-                    "depth": 243
+                    "z": 243
                 },
                 {
                     "name": "DROGA NA SKRAJU LASU_06.png",
                     "background": false,
                     "x": 141,
                     "y": 441,
-                    "depth": 243
+                    "z": 243
                 },
                 {
                     "name": "DROGA NA SKRAJU LASU_07.png",
                     "background": false,
                     "x": 0,
                     "y": 152,
-                    "depth": 245
+                    "z": 245
                 }
             ]
         },
@@ -18344,14 +18344,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Droga z autem_01.png",
                     "background": false,
                     "x": 178,
                     "y": 439,
-                    "depth": 243
+                    "z": 243
                 }
             ]
         },
@@ -18480,28 +18480,28 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Niebo_01.png",
                     "background": false,
                     "x": 498,
                     "y": 348,
-                    "depth": 40
+                    "z": 40
                 },
                 {
                     "name": "Niebo_02.png",
                     "background": false,
                     "x": 1,
                     "y": 299,
-                    "depth": 40
+                    "z": 40
                 },
                 {
                     "name": "Niebo_03.png",
                     "background": false,
                     "x": 169,
                     "y": 1,
-                    "depth": 40
+                    "z": 40
                 }
             ]
         },
@@ -18598,42 +18598,42 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Pieklo_01.png",
                     "background": false,
                     "x": 432,
                     "y": 99,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Pieklo_02.png",
                     "background": false,
                     "x": 527,
                     "y": 0,
-                    "depth": 255
+                    "z": 255
                 },
                 {
                     "name": "Pieklo_04.png",
                     "background": false,
                     "x": 342,
                     "y": 177,
-                    "depth": 256
+                    "z": 256
                 },
                 {
                     "name": "Pieklo_03.png",
                     "background": false,
                     "x": 41,
                     "y": 263,
-                    "depth": 3
+                    "z": 3
                 },
                 {
                     "name": "Pieklo_05.png",
                     "background": false,
                     "x": 0,
                     "y": 249,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },
@@ -18791,35 +18791,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Polana z gobem_02.png",
                     "background": false,
                     "x": 684,
                     "y": 0,
-                    "depth": 150
+                    "z": 150
                 },
                 {
                     "name": "Polana z gobem_03.png",
                     "background": false,
                     "x": 86,
                     "y": 389,
-                    "depth": 198
+                    "z": 198
                 },
                 {
                     "name": "Polana z gobem_05.png",
                     "background": false,
                     "x": 0,
                     "y": 0,
-                    "depth": 253
+                    "z": 253
                 },
                 {
                     "name": "Polana z gobem_04.png",
                     "background": false,
                     "x": 386,
                     "y": 363,
-                    "depth": 170
+                    "z": 170
                 }
             ]
         },
@@ -19036,14 +19036,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Wnetrze samochodu_01.png",
                     "background": false,
                     "x": 0,
                     "y": 0,
-                    "depth": 10
+                    "z": 10
                 }
             ]
         },
@@ -19172,14 +19172,14 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Akcja w Kafei_1.png",
                     "background": false,
                     "x": 0,
                     "y": 0,
-                    "depth": 222
+                    "z": 222
                 }
             ]
         },
@@ -19285,35 +19285,35 @@
                     "background": true,
                     "x": 0,
                     "y": 0,
-                    "depth": -2
+                    "z": -2
                 },
                 {
                     "name": "Boisko szkolne_1.png",
                     "background": false,
                     "x": 34,
                     "y": 313,
-                    "depth": 162
+                    "z": 162
                 },
                 {
                     "name": "Boisko szkolne_2.png",
                     "background": false,
                     "x": 314,
                     "y": 97,
-                    "depth": 131
+                    "z": 131
                 },
                 {
                     "name": "Boisko szkolne_3.png",
                     "background": false,
                     "x": 505,
                     "y": 112,
-                    "depth": 255
+                    "z": 255
                 },
                 {
                     "name": "Boisko szkolne_5.png",
                     "background": false,
                     "x": 920,
                     "y": 306,
-                    "depth": 256
+                    "z": 256
                 }
             ]
         },

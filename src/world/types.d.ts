@@ -6,7 +6,7 @@ interface Layer {
     background: boolean;
     x: number;
     y: number;
-    depth: number;
+    z: number;
 };
 
 interface Hotpoint {

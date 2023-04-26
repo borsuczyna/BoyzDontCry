@@ -58,7 +58,10 @@ export class World {
         if(!this.location) return;
 
         for(let layer of this.layers.elements) {
-            // render.drawSprite(layer.name, layer.position);
+            if(!layer.cache) continue;
+            render.drawSprite3D(layer.x, layer.y, layer.z, layer.cache);
         }
+
+        render.draw3DElements();
     }
 }

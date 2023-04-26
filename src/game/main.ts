@@ -1,5 +1,4 @@
 import { addEventListener } from "../events/main";
-import { loadSprite } from "../library/cache";
 import Render from "../render/main";
 import { World } from "../world/main";
 
