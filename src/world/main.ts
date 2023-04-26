@@ -1,7 +1,7 @@
 import { BackgroundAnimation, LocationElements, Location, LocationPosition, Layer, Hotpoint, ElementWithCache } from './types';
 import locationsData from './data/locations.json';
 import positionsData from './data/positions.json';
-import { CacheElement, loadSprite } from '../library/cache';
+import { CacheElement, loadSprite, unloadSprite } from '../library/cache';
 import Render from '../render/main';
 import { triggerEvent } from '../events/main';
 const locations: Location[] = locationsData as unknown as Location[];
@@ -37,6 +37,10 @@ export class World {
 
     unloadLocation(): void {
         this.location = '';
+
+        // unload all sprites
+        for(let layer of this.layers.elements) unloadSprite(layer.cache!);
+
         this.layers = emptyLocationElements<Layer>();
         this.hotpoints = emptyLocationElements<Hotpoint>();
         this.backgroundAnimations = emptyLocationElements<BackgroundAnimation>();

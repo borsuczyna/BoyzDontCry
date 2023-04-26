@@ -11,11 +11,24 @@ export interface CacheElement {
     height: number;
 };
 
-const cache: CacheElement[] = [];
+let cache: CacheElement[] = [];
 
 function checkFinishedLoading(): void {
     let finished: boolean = cache.every(element => element.loaded);
     if(finished) triggerEvent('cache:loading-finished');
+}
+
+export function unloadSprite(element: string | CacheElement): void {
+    let finalElement: CacheElement | undefined;
+    if(typeof element == 'string') finalElement = cache.find(cache => cache.name == element);
+    else finalElement = element;
+    if(!finalElement) return;
+
+    triggerEvent('game:addDebugText', `unloaded sprite "${finalElement.library}/${finalElement.name}"`);
+
+    finalElement.image.remove();
+    cache = cache.filter(cache => cache != finalElement);
+    finalElement = undefined;
 }
 
 export function loadSprite(name: string, library?: string, customCallback?: (this: HTMLImageElement, ev?: Event) => void): CacheElement | undefined {
