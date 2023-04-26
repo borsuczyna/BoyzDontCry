@@ -1,6 +1,4 @@
-import { addEventListener } from "./events/main";
 import Game from "./game/main";
-import { loadSprite } from "./library/cache";
 import './world/main';
 
 let canvas: HTMLCanvasElement = document.getElementById('player') as HTMLCanvasElement;
@@ -13,9 +11,3 @@ function updateGame() {
 }
 
 requestAnimationFrame(updateGame);
-
-addEventListener('cache:loading-finished', () => {
-    console.log('all downloaded')
-});
-
-loadSprite('RYCERZ_16')

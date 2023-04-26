@@ -25,6 +25,9 @@ export class World {
     private loadLayers(layers: LocationElements<Layer>): void {
         this.layers = layers;
         
+        for(let layer of layers.elements) {
+            
+        }
     }
 
     unloadLocation(): void {
