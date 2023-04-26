@@ -23,6 +23,7 @@ export default class Game {
         // Loading screen
         addEventListener('loading:toggleLoadingScreen', this.handleLoadingScreen.bind(this));
         addEventListener('game:addDebugText', this.handleDebugText.bind(this));
+        addEventListener('cache:loading-finished', this.handleLoadingFinished.bind(this));
     }
 
     private handleLoadingScreen(this: this, visible: boolean): void {
@@ -33,6 +34,11 @@ export default class Game {
         this.debugText.push(text);
     }
 
+    private handleLoadingFinished(this: this): void {
+        if(!this.loadingScreen.visible) return;
+        this.loadingScreen.visible = false;
+    }
+
     update(): void {
         // clear the canvas
         this.render.clear();
@@ -41,9 +47,12 @@ export default class Game {
         if(this.loadingScreen.visible) {
             let c = 0;
             for(let text of ['Loading...', ...this.debugText]) {
-                this.render.drawText(text, 20, 20 + (c++ * 15), 'white', 'left', 'top', '12px monospace');
+                this.render.drawText(text, 20, 20 + (c++ * 15), 'white', 'left', 'top', '11px monospace');
             }
             return;
         }
+
+        // render world
+        this.world.render(this.render);
     }
 }

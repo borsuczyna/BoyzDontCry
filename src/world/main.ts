@@ -1,7 +1,7 @@
-import { BackgroundAnimation, LocationElements, Location, LocationPosition, Layer, Hotpoint } from './types';
+import { BackgroundAnimation, LocationElements, Location, LocationPosition, Layer, Hotpoint, ElementWithCache } from './types';
 import locationsData from './data/locations.json';
 import positionsData from './data/positions.json';
-import { loadSprite } from '../library/cache';
+import { CacheElement, loadSprite } from '../library/cache';
 import Render from '../render/main';
 import { triggerEvent } from '../events/main';
 const locations: Location[] = locationsData as unknown as Location[];
@@ -16,9 +16,9 @@ function emptyLocationElements<T>(): LocationElements<T> {
 
 export class World {
     location: string = '';
-    layers: LocationElements<Layer> = emptyLocationElements<Layer>();
-    hotpoints: LocationElements<Hotpoint> = emptyLocationElements<Hotpoint>();
-    backgroundAnimations: LocationElements<BackgroundAnimation> = emptyLocationElements<BackgroundAnimation>();
+    layers: LocationElements<ElementWithCache<Layer>> = emptyLocationElements<ElementWithCache<Layer>>();
+    hotpoints: LocationElements<ElementWithCache<Hotpoint>> = emptyLocationElements<ElementWithCache<Hotpoint>>();
+    backgroundAnimations: LocationElements<ElementWithCache<BackgroundAnimation>> = emptyLocationElements<ElementWithCache<BackgroundAnimation>>();
 
     // Loading locations
     private getLocationByName(name: string): Location | undefined {
@@ -26,13 +26,12 @@ export class World {
     }
 
     private loadLayers(layers: LocationElements<Layer>): void {
-        this.layers = layers;
+        this.layers = layers as LocationElements<ElementWithCache<Layer>>;
         
-        for(let layer of layers.elements) {
-            let success: boolean = loadSprite(layer.name, this.location, (ev) => {
-                triggerEvent('game:addDebugText', `loaded layer "${layer.name}"`);
-            });
-            triggerEvent('game:addDebugText', success ? `layer "${layer.name}" queued` : `failed to queue layer "${layer.name}"`);
+        for(let layer of this.layers.elements) {
+            let element: CacheElement | undefined  = loadSprite(layer.name, this.location);
+            if(!element) throw new Error(`failed to load layer: "${layer.name}"`);
+            layer.cache = element;
         }
     }
 
@@ -53,5 +52,13 @@ export class World {
 
         this.location = name;
         this.loadLayers(location.layers);
+    }
+
+    render(render: Render): void {
+        if(!this.location) return;
+
+        for(let layer of this.layers.elements) {
+            // render.drawSprite(layer.name, layer.position);
+        }
     }
 }

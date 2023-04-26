@@ -1,4 +1,5 @@
 import { Animation } from '../animations/types';
+import { CacheElement } from '../library/cache';
 
 interface Layer {
     name: string;
@@ -25,6 +26,10 @@ interface BackgroundAnimation {
     y: number;
     z: number;
     animation: Animation;
+};
+
+type ElementWithCache<T> = T & {
+    cache?: CacheElement;
 };
 
 interface LocationElements<T> {
