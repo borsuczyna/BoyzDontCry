@@ -7,15 +7,33 @@ export interface CacheElement {
     sprite: number;
     image: HTMLImageElement;
     loaded: boolean;
+    downloading: boolean;
     width: number;
     height: number;
+    src: string;
 };
 
 let cache: CacheElement[] = [];
 
 function checkFinishedLoading(): void {
+    let progress: number = cache.filter(element => element.loaded).length / cache.length;
+    triggerEvent('loading:setProgress', progress);
+
     let finished: boolean = cache.every(element => element.loaded);
     if(finished) triggerEvent('cache:loading-finished');
+}
+
+function checkQueue(): void {
+    let downloadingAnything: boolean = cache.some(element => element.downloading && !element.loaded);
+    if(downloadingAnything) return;
+
+    let next: CacheElement | undefined = cache.find(element => !element.loaded && !element.downloading);
+    if(!next) return;
+
+    next.downloading = true;
+    next.image.src = next.src;
+    triggerEvent('game:addDebugText', `downloading sprite "${next.library}/${next.name}"`);
+    triggerEvent('loading:setText', `downloading "${next.library}/${next.name}"`);
 }
 
 export function unloadSprite(element: string | CacheElement): void {
@@ -32,12 +50,14 @@ export function unloadSprite(element: string | CacheElement): void {
 }
 
 export function loadSprite(name: string, library?: string, customCallback?: CallableFunction): CacheElement | undefined {
-    let sprite: number | undefined = findSprite(library, name);
-    if(!sprite) sprite = findSprite(undefined, name);
-    if(!sprite) {
+    let result: [number, string] | undefined = findSprite(library, name);
+    if(!result) result = findSprite(undefined, name);
+    if(!result) {
         triggerEvent('game:addDebugText', `failed to load sprite "${library}/${name}"`);
         return undefined;
     }
+    let sprite: number = result[0];
+    library = result[1];
 
     // if there is cache with this id, return it
     let element: CacheElement | undefined = cache.find(element => element.sprite == sprite);
@@ -45,7 +65,7 @@ export function loadSprite(name: string, library?: string, customCallback?: Call
     let format: string = sprite >= 18291 ? 'jpg' : 'png';
 
     // add debug text
-    triggerEvent('game:addDebugText', `downloading sprite "${library}/${name}"`);
+    triggerEvent('game:addDebugText', `queued sprite "${library}/${name}"`);
 
     // create element
     element = {
@@ -56,8 +76,11 @@ export function loadSprite(name: string, library?: string, customCallback?: Call
         loaded: false,
         width: 1,
         height: 1,
+        downloading: false,
+        src: `graphics/${sprite}.${format}`
     }
-    element.image.src = `graphics/${sprite}.${format}`;
+
+    checkQueue();
 
     // load listeners
     if(customCallback) element.image.addEventListener('load', function(this, event) {
@@ -71,6 +94,7 @@ export function loadSprite(name: string, library?: string, customCallback?: Call
             element.height = this.height;
 
             triggerEvent('game:addDebugText', `loaded sprite "${library}/${name}"`);
+            checkQueue();
             checkFinishedLoading();
         }
     });

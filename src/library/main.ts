@@ -11,18 +11,19 @@ export function clearAnimationName(animation: string): string {
     return animation.toLowerCase().replaceAll('.png', '').replaceAll('.jpg', '');
 }
 
-export function findSprite(library: string | undefined, targetAnimation: string): number | undefined {
+export function findSprite(library: string | undefined, targetAnimation: string): [number, string] | undefined {
     // if there's no library, try to find it in any library
     if(!library) {
         for(let library in graphics) {
-            let sprite: number | undefined = findSprite(library, targetAnimation);
-            if(sprite) return sprite;
+            let result = findSprite(library, targetAnimation);
+            if(result) return result;
         }
 
         return undefined;
     }
 
     // if library with given name doesn't exist, return undefined
+    library = library.toUpperCase();
     if(!graphics[library]) return undefined;
 
     // if there's a library with given name, try to find the sprite in it
@@ -31,7 +32,7 @@ export function findSprite(library: string | undefined, targetAnimation: string)
 
     for(let animation of libraryData) {
         if(clearAnimationName(animation[0]) == clearAnimationName(targetAnimation)) {
-            return animation[1];
+            return [animation[1], library];
         }
     }
     

@@ -6,8 +6,9 @@ import Render from '../render/main';
 import { triggerEvent } from '../events/main';
 import Camera from '../camera/main';
 import Input from '../input/main';
+import { Animation } from '../animations/main';
 const locations: Location[] = locationsData as unknown as Location[];
-const positions: LocationPosition[] = positionsData as unknown as LocationPosition[];
+// const positions: LocationPosition[] = positionsData as unknown as LocationPosition[];
 
 function emptyLocationElements<T>(): LocationElements<T> {
     return {
@@ -40,7 +41,22 @@ export class World {
         }
     }
 
-    private logicMapLoaded(this: this, image: HTMLImageElement, ev?: Event | undefined) {
+    private loadHotpoints(hotpoints: LocationElements<Hotpoint>): void {
+        this.hotpoints = hotpoints as LocationElements<ElementWithCache<Hotpoint>>;
+
+        for(let hotpoint of this.hotpoints.elements) {
+            if(hotpoint.bitmap) {
+                let element: CacheElement | undefined = loadSprite(hotpoint.bitmap, this.location);
+                if(!element) throw new Error(`failed to load hotpoint: "${hotpoint.id}"`);
+                hotpoint.cache = element;
+            } else if(hotpoint.idleAnimation) {
+                hotpoint.cache = [];
+                hotpoint.animation = new Animation(hotpoint.idleAnimation, hotpoint.cache as CacheElement[]);
+            }
+        }
+    }
+
+    private logicMapLoaded(this: this, image: HTMLImageElement) {
         if(!this.logicMap) return;
 
         this.logicMap.width = image.width;
@@ -63,7 +79,7 @@ export class World {
         this.location = '';
 
         // unload all sprites
-        for(let layer of this.layers.elements) unloadSprite(layer.cache!);
+        for(let layer of this.layers.elements) unloadSprite(layer.cache! as CacheElement);
 
         this.layers = emptyLocationElements<Layer>();
         this.hotpoints = emptyLocationElements<Hotpoint>();
@@ -78,20 +94,33 @@ export class World {
         if(!location) return;
 
         triggerEvent('loading:toggleLoadingScreen', true);
+        triggerEvent('loading:setProgress', 0);
 
         this.location = name;
         this.loadLogicMap(location.logicMap);
         this.loadLayers(location.layers);
+        this.loadHotpoints(location.hotpoints);
     }
-
+    
     // update and render
     render(render: Render): void {
         if(!this.location) return;
-
+        
         // layers
         for(let layer of this.layers.elements) {
             if(!layer.cache) continue;
-            render.drawSprite3D(layer.x - this.camera.x, layer.y - this.camera.y, layer.z, layer.cache);
+            render.drawSprite3D(layer.x - this.camera.x, layer.y - this.camera.y, layer.z, layer.cache! as CacheElement);
+        }
+
+        // hotpoints
+        for(let hotpoint of this.hotpoints.elements) {
+            if(!hotpoint.cache) continue;
+            if(hotpoint.bitmap) {
+                render.drawSprite3D(hotpoint.x - this.camera.x, hotpoint.y - this.camera.y, hotpoint.z, hotpoint.cache! as CacheElement);
+            } else if(hotpoint.animation) {
+                hotpoint.animation.update();
+                hotpoint.animation.draw(render, hotpoint.x - this.camera.x, hotpoint.y - this.camera.y, hotpoint.z, 1, hotpoint.cache! as CacheElement[]);
+            }
         }
 
         // draw queued 3d elements
