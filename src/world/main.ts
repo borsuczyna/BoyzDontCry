@@ -5,6 +5,7 @@ import { CacheElement, loadSprite, unloadSprite } from '../library/cache';
 import Render from '../render/main';
 import { triggerEvent } from '../events/main';
 import Camera from '../camera/main';
+import Input from '../input/main';
 const locations: Location[] = locationsData as unknown as Location[];
 const positions: LocationPosition[] = positionsData as unknown as LocationPosition[];
 
@@ -66,9 +67,14 @@ export class World {
 
         for(let layer of this.layers.elements) {
             if(!layer.cache) continue;
-            render.drawSprite3D(layer.x, layer.y, layer.z, layer.cache);
+            render.drawSprite3D(layer.x - this.camera.x, layer.y - this.camera.y, layer.z, layer.cache);
         }
 
         render.draw3DElements();
+    }
+
+    update(deltaTime: number, input: Input) {
+        if(input.isKeyDown('ArrowLeft')) this.camera.x -= deltaTime/2;
+        if(input.isKeyDown('ArrowRight')) this.camera.x += deltaTime/2;
     }
 }

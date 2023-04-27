@@ -41,7 +41,7 @@ export default class Game {
         this.loadingScreen.visible = false;
     }
 
-    update(): void {
+    update(deltaTime: number): void {
         // clear the canvas
         this.render.clear();
 
@@ -54,18 +54,10 @@ export default class Game {
             return;
         }
 
+        // update world
+        this.world.update(deltaTime, this.input);
+
         // render world
         this.world.render(this.render);
-
-        // test
-        this.render.drawRectangle(100, 100, 100, 100, 'black');
-
-        let time: number | undefined = this.input.getHoldingTimeInPosition(100, 100, 100, 100);
-        if(time) {
-            let progress = (performance.now() - time)/500;
-            let alpha = Math.min(1, progress * 3);
-            let position: [number, number] = this.input.getTouchOrMousePosition();
-            this.render.drawCircle(position[0], position[1], 20, 10, 0, progress * 360, `rgba(255, 255, 255, ${alpha})`);
-        }
     }
 }
