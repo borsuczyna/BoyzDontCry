@@ -4,6 +4,7 @@ import positionsData from './data/positions.json';
 import { CacheElement, loadSprite, unloadSprite } from '../library/cache';
 import Render from '../render/main';
 import { triggerEvent } from '../events/main';
+import Camera from '../camera/main';
 const locations: Location[] = locationsData as unknown as Location[];
 const positions: LocationPosition[] = positionsData as unknown as LocationPosition[];
 
@@ -15,6 +16,8 @@ function emptyLocationElements<T>(): LocationElements<T> {
 }
 
 export class World {
+    camera: Camera = new Camera();
+
     location: string = '';
     layers: LocationElements<ElementWithCache<Layer>> = emptyLocationElements<ElementWithCache<Layer>>();
     hotpoints: LocationElements<ElementWithCache<Hotpoint>> = emptyLocationElements<ElementWithCache<Hotpoint>>();
