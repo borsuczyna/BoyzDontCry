@@ -42,6 +42,17 @@ export default class Render {
         this.context.drawImage(cache.image, x, y, width, height);
     }
 
+    drawCircle(x: number, y: number, size: number, borderWidth: number = size, startAngle: number = 0, sweepAngle: number = 360, color: string = 'black'): void {
+        size = size - borderWidth/2;
+
+        this.context.beginPath();
+        this.context.arc(x, y, size, Math.PI * (startAngle - 180) / 180, Math.PI * (sweepAngle - 180) / 180);
+        this.context.strokeStyle = color;
+        this.context.lineWidth = borderWidth;
+        this.context.stroke();
+        this.context.closePath();
+    }
+
     clear(): void {
         this.queue = [];
 
