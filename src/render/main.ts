@@ -13,14 +13,13 @@ interface QueueElement {
 };
 
 export default class Render {
-    width: number;
-    height: number;
+    canvas: HTMLCanvasElement;
     context: CanvasRenderingContext2D;
     queue: QueueElement[] = [];
+    scale: number = 1;
 
     constructor(canvas: HTMLCanvasElement) {
-        this.width = canvas.width;
-        this.height = canvas.height;
+        this.canvas = canvas;
         this.context = canvas.getContext('2d')!;
     }
 
@@ -55,9 +54,11 @@ export default class Render {
 
     clear(): void {
         this.queue = [];
-
-        this.context.clearRect(0, 0, this.width, this.height);
-        this.drawRectangle(0, 0, this.width, this.height, 'black');
+        
+        let [width, height]: [number, number] = [this.canvas.width, this.canvas.height];
+        this.scale = height/600;
+        this.context.clearRect(0, 0, width, height);
+        this.drawRectangle(0, 0, width, height, 'black');
     }
 
     drawSprite3D(x: number, y: number, z: number, cache: CacheElement): void {
@@ -73,7 +74,7 @@ export default class Render {
     draw3DElements(): void {
         this.queue.sort((a, b) => a.z - b.z).forEach(element => {
             if (element.type === QueueType.Sprite) {
-                this.drawImage(element.x, element.y, element.cache.width, element.cache.height, element.cache);
+                this.drawImage(element.x * this.scale, element.y * this.scale, element.cache.width * this.scale, element.cache.height * this.scale, element.cache);
             }
         });
     }

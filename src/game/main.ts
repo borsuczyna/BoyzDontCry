@@ -12,6 +12,7 @@ export default class Game {
     world: World;
     input: Input;
     debugText: string[] = [];
+    canvas: HTMLCanvasElement;
 
     loadingScreen: LoadingScreenState = {
         visible: false
@@ -21,6 +22,7 @@ export default class Game {
         this.render = new Render(canvas);
         this.world = new World();
         this.input = new Input(canvas);
+        this.canvas = canvas;
 
         // Loading screen
         addEventListener('loading:toggleLoadingScreen', this.handleLoadingScreen.bind(this));
@@ -55,7 +57,7 @@ export default class Game {
         }
 
         // update world
-        this.world.update(deltaTime, this.input);
+        this.world.update(deltaTime, this.render, this.input);
 
         // render world
         this.world.render(this.render);

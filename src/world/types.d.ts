@@ -66,3 +66,9 @@ interface LocationPosition {
         direction: string;
     };
 }
+
+interface LogicMap {
+    width: number;
+    height: number;
+    cache: CacheElement;
+};

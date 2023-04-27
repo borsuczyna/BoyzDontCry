@@ -31,7 +31,7 @@ export function unloadSprite(element: string | CacheElement): void {
     finalElement = undefined;
 }
 
-export function loadSprite(name: string, library?: string, customCallback?: (this: HTMLImageElement, ev?: Event) => void): CacheElement | undefined {
+export function loadSprite(name: string, library?: string, customCallback?: CallableFunction): CacheElement | undefined {
     let sprite: number | undefined = findSprite(library, name);
     if(!sprite) sprite = findSprite(undefined, name);
     if(!sprite) {
@@ -60,7 +60,10 @@ export function loadSprite(name: string, library?: string, customCallback?: (thi
     element.image.src = `graphics/${sprite}.${format}`;
 
     // load listeners
-    if(customCallback) element.image.addEventListener('load', customCallback);
+    if(customCallback) element.image.addEventListener('load', function(this, event) {
+        customCallback(this, event);
+    });
+    
     element.image.addEventListener('load', function(this) {
         if(element) {
             element.loaded = true;
